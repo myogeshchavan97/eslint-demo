@@ -1,7 +1,7 @@
 {
   "extends": "airbnb",
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2020
   },
   "env": {
     "node": true,
@@ -9,6 +9,19 @@
     "es6": true
   },
   "rules": {
-    "react/jsx-filename-extension": "off"
+    "comma-dangle": "off",
+    "no-unused-expressions": "off",
+    "react/jsx-fragments": "off",
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "react/jsx-filename-extension": "off",
+    "object-curly-newline": "off"
   }
 }
